@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WhatsApp Filter</string>
+    <string name="accessibility_service_description">This service must be enabled for WhatsApp Filter to work.</string>
+    <string name="Checking">Checking...</string>
+    <string name="EnableService">Please enable filtering service</string>
+    <string name="blocked_toast_message">Blocked by WhatsApp Filter</string>
+    <string name="video_block">Video block</string>
+    <string name="updates_block">Block updates tab</string>
+    <string name="channels_block">Block channels</string>
+    <string name="block_status">Block status</string>
+</resources>

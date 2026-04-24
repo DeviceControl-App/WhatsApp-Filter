@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"/>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch_updates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/updates_block"
+        android:padding="10dp"
+        android:textSize="18sp"/>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch_channels"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/channels_block"
+        android:padding="10dp"
+        android:textSize="18sp"/>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/video_block"
+        android:padding="10dp"
+        android:textSize="18sp"/>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch_block_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/block_status"
+        android:padding="10dp"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btn_enable_accessibility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/EnableService"
+        android:visibility="gone" />
+
+</LinearLayout>

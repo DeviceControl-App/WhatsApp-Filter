@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WhatsApp Filter</string>
+    <string name="accessibility_service_description">שירות זה צריך לפעול כדי שסינון WhatsApp Filter יעבוד.</string>
+    <string name="Checking">בודק...</string>
+    <string name="EnableService">אנא הפעל שירות סינון</string>
+    <string name="blocked_toast_message">נחסם על ידי WhatsApp Filter</string>
+    <string name="video_block">חסימת וידאו</string>
+    <string name="updates_block">חסימת לשונית עדכונים</string>
+    <string name="channels_block">חסימת ערוצים</string>
+    <string name="block_status">חסימת סטטוס</string>
+</resources>
